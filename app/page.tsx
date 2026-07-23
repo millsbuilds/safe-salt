@@ -110,11 +110,11 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div style={{ flex: 1, display: "flex", justifyContent: isMobile ? "center" : "flex-end" }}>
+        <div style={{ flex: 1, display: "flex", justifyContent: isMobile ? "center" : "flex-end", background: "transparent" }}>
           <img
             src="/images/hand-salt.png"
             alt="SafeSalt in hand"
-            style={{ width: "100%", maxWidth: 480, height: "auto", objectFit: "contain", display: "block" }}
+            style={{ width: "100%", maxWidth: 480, height: "auto", objectFit: "contain", display: "block", background: "transparent" }}
           />
         </div>
       </div>
