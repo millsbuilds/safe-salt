@@ -111,9 +111,11 @@ function Hero() {
           </div>
         </div>
         <div style={{ flex: 1, display: "flex", justifyContent: isMobile ? "center" : "flex-end" }}>
-          <div style={{ width: "100%", maxWidth: 480, aspectRatio: "1", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 12, display: "flex", alignItems: "center", justifyContent: "center" }}>
-            <span style={{ color: "rgba(255,255,255,0.25)", fontSize: 14, fontWeight: 500, letterSpacing: "0.1em", textTransform: "uppercase", fontFamily: F }}>Product Image</span>
-          </div>
+          <img
+            src="/images/hand-salt.png"
+            alt="SafeSalt in hand"
+            style={{ width: "100%", maxWidth: 480, height: "auto", objectFit: "contain", display: "block" }}
+          />
         </div>
       </div>
     </section>
