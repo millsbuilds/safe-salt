@@ -98,8 +98,11 @@ function Hero() {
           <h1 style={{ color: C.white, fontSize: isMobile ? 36 : 56, fontWeight: 700, lineHeight: 1.08, letterSpacing: "-0.025em", marginBottom: 24, fontFamily: F }}>
             The only seasoning engineered for your Na:K protocol.
           </h1>
+          <p style={{ color: "rgba(255,255,255,0.7)", fontSize: isMobile ? 18 : 20, fontWeight: 300, lineHeight: 1.6, marginBottom: 12, maxWidth: 540, fontFamily: F }}>
+            Not table salt. Not a lite salt.
+          </p>
           <p style={{ color: "rgba(255,255,255,0.7)", fontSize: isMobile ? 18 : 20, fontWeight: 300, lineHeight: 1.6, marginBottom: 32, maxWidth: 540, fontFamily: F }}>
-            Not table salt. Not a lite salt. SafeSalt™ is a precision electrolyte seasoning — the first formulated around your sodium-to-potassium ratio, not a generic daily value.
+            SafeSalt™ is a precision electrolyte seasoning — the first formulated around your sodium-to-potassium ratio, not a generic daily value.
           </p>
           <div style={{ display: "flex", flexDirection: "column", gap: 12, alignItems: "flex-start" }}>
             <a href="#science" style={{ display: "inline-block", background: C.white, color: C.navy, fontSize: 14, fontWeight: 600, padding: "16px 32px", textDecoration: "none", fontFamily: F }}>
