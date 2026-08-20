@@ -229,7 +229,7 @@ function Science() {
 
         <blockquote style={{ borderLeft: `4px solid ${C.peach}`, paddingLeft: 24, maxWidth: 760 }}>
           <p style={{ color: "rgba(255,255,255,0.8)", fontSize: isMobile ? 18 : 20, fontWeight: 300, lineHeight: 1.6, fontStyle: "italic", fontFamily: F }}>
-            "In Severo Ochoa's laboratory, Dr. Gardner spent one summer discovering nearly 40% of the genetic code. That same precision defines SafeSalt™."
+            "In Nobel Laureate Severo Ochoa's laboratory at NYU School of Medicine, Dr. Gardner led the discovery that AAA codes for lysine — one of the foundational assignments in the genetic code, cited in Marshall Nirenberg's 1968 Nobel Prize lecture. The finding resolved a paradox that had blocked leading laboratories for two years, and prompted a congratulatory letter from Francis Crick to the Ochoa laboratory. He would go on to author foundational sporulation research in Nobel Laureate Arthur Kornberg's Stanford laboratory as well. That same precision defines SafeSalt™."
           </p>
         </blockquote>
       </div>
