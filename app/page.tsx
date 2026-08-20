@@ -93,7 +93,7 @@ function Hero() {
       <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", flexDirection: isMobile ? "column" : "row", gap: 48, alignItems: "center" }}>
         <div style={{ flex: 1 }}>
           <p style={{ color: C.peach, fontSize: 14, fontWeight: 500, letterSpacing: "0.04em", marginBottom: 24, fontFamily: F }}>
-            By SafeBrand™ · Health Science Nutritionals, PBC
+            By SafeBrand™ · Health Science Nutritionals, PBC · Patent Pending
           </p>
           <h1 style={{ color: C.white, fontSize: isMobile ? 36 : 56, fontWeight: 700, lineHeight: 1.08, letterSpacing: "-0.025em", marginBottom: 24, fontFamily: F }}>
             The only seasoning engineered for your Na:K protocol.
@@ -177,9 +177,12 @@ function Product() {
     <section id="product" style={{ background: C.blush, padding: isMobile ? "64px 24px" : "112px 24px" }}>
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
         <p style={{ color: C.peach, fontSize: 14, fontWeight: 500, letterSpacing: "0.04em", marginBottom: 16, fontFamily: F }}>The formulation</p>
-        <h2 style={{ color: C.navy, fontSize: isMobile ? 28 : 36, fontWeight: 700, letterSpacing: "-0.02em", marginBottom: 48, maxWidth: 640, fontFamily: F }}>
+        <h2 style={{ color: C.navy, fontSize: isMobile ? 28 : 36, fontWeight: 700, letterSpacing: "-0.02em", marginBottom: 16, maxWidth: 640, fontFamily: F }}>
           Six ingredients. Full mineral stack. Zero potassium chloride.
         </h2>
+        <p style={{ color: C.peach, fontSize: 13, fontWeight: 500, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 48, fontFamily: F }}>
+          U.S. Patent Pending
+        </p>
 
         <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(4, 1fr)", gap: 24 }}>
           {cards.map((c) => (
@@ -332,7 +335,7 @@ function Footer() {
         </div>
         <div style={{ borderTop: "1px solid rgba(255,255,255,0.1)", paddingTop: 32 }}>
           <p style={{ color: "rgba(255,255,255,0.3)", fontSize: 12, lineHeight: 1.6 }}>
-            SafeSalt™ is a trademark of Health Science Nutritionals, PBC. © 2026 Health Science Nutritionals, PBC.
+            SafeSalt™ is a trademark of Health Science Nutritionals, PBC. Patent Pending. © 2026 Health Science Nutritionals, PBC.
           </p>
         </div>
       </div>
