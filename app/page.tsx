@@ -264,7 +264,7 @@ function NaK() {
         <p style={{ color: C.navyMuted, fontSize: 18, fontWeight: 300, lineHeight: 1.7, marginBottom: 24, fontFamily: F }}>
           Every other seasoning makes your Na:K decisions for you. SafeSalt™ gives you clean, optimized sodium — so you can source your potassium from avocados, leafy greens, and whole foods, the way nature intended. Stack it with your electrolyte protocol. Know exactly what you're putting in.
         </p>
-        <a href="https://safebrand.health" target="_blank" rel="noopener noreferrer" style={{ display: "inline-block", background: C.navy, color: C.white, fontSize: 14, fontWeight: 600, padding: "16px 32px", textDecoration: "none", fontFamily: F }}>
+        <a href="/assessment" style={{ display: "inline-block", background: C.navy, color: C.white, fontSize: 14, fontWeight: 600, padding: "16px 32px", textDecoration: "none", fontFamily: F }}>
           Take the NaK Precision Mineral Assessment →
         </a>
       </div>
