@@ -99,7 +99,7 @@ function Hero() {
             The only seasoning engineered for your Na:K protocol.
           </h1>
           <p style={{ color: "rgba(255,255,255,0.7)", fontSize: isMobile ? 18 : 20, fontWeight: 300, lineHeight: 1.6, marginBottom: 12, maxWidth: 540, fontFamily: F }}>
-            Not table salt. Not a lite salt.
+            Tastes like salt. Works like salt. Zero potassium chloride — you control your electrolyte stack.
           </p>
           <p style={{ color: "rgba(255,255,255,0.7)", fontSize: isMobile ? 18 : 20, fontWeight: 300, lineHeight: 1.6, marginBottom: 32, maxWidth: 540, fontFamily: F }}>
             SafeSalt™ is a precision electrolyte seasoning — the first formulated around your sodium-to-potassium ratio, not a generic daily value.
