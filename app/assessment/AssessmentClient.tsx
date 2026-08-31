@@ -182,7 +182,7 @@ const TIER_DATA: Record<Tier, { title: string; summary: string; detail: string }
     title: "Balanced Baseline",
     summary: "Your reported patterns suggest a relatively balanced sodium-to-potassium profile.",
     detail:
-      "SafeSalt\u2122 can help you maintain that balance \u2014 delivering 50% less sodium per pinch with built-in iodine and calcium, and zero potassium chloride so you stay in control of your K sources.",
+      "SafeSalt\u2122 can help you maintain that balance \u2014 delivering 50% less sodium per pinch with built-in iodine, and zero potassium chloride so you stay in control of your K sources.",
   },
   sodium: {
     title: "Sodium-Dominant",
@@ -194,7 +194,7 @@ const TIER_DATA: Record<Tier, { title: string; summary: string; detail: string }
     title: "High-Turnover / Athletic",
     summary: "Your activity level and reported sweat loss suggest elevated electrolyte turnover.",
     detail:
-      "Athletes and high-output individuals lose sodium and minerals faster than most. SafeSalt\u2122 gives you a clean, calibrated sodium base \u2014 with iodine and calcium built in \u2014 so you can layer your potassium from whole-food sources and dial in your recovery protocol intentionally.",
+      "Athletes and high-output individuals lose sodium and minerals faster than most. SafeSalt\u2122 gives you a clean, calibrated sodium base \u2014 with iodine built in \u2014 so you can layer your potassium from whole-food sources and dial in your recovery protocol intentionally.",
   },
 };
 

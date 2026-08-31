@@ -168,8 +168,6 @@ function Product() {
 
   const cards = [
     { stat: "50% less Na", desc: "Optimized sodium load without KCl substitution" },
-    { stat: "45% DV Iodine", desc: "Thyroid support built into every pinch" },
-    { stat: "8% DV Calcium", desc: "Passive bone density support through daily cooking" },
     { stat: "Zero KCl", desc: "Your potassium. Your sources. Your control." },
   ];
 
@@ -178,13 +176,13 @@ function Product() {
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
         <p style={{ color: C.peach, fontSize: 14, fontWeight: 500, letterSpacing: "0.04em", marginBottom: 16, fontFamily: F }}>The formulation</p>
         <h2 style={{ color: C.navy, fontSize: isMobile ? 28 : 36, fontWeight: 700, letterSpacing: "-0.02em", marginBottom: 16, maxWidth: 640, fontFamily: F }}>
-          Six ingredients. Full mineral stack. Zero potassium chloride.
+          50% less sodium. Zero potassium chloride. Same great taste as salt.
         </h2>
         <p style={{ color: C.peach, fontSize: 13, fontWeight: 500, letterSpacing: "0.08em", textTransform: "uppercase", marginBottom: 48, fontFamily: F }}>
           U.S. Patent Pending
         </p>
 
-        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(4, 1fr)", gap: 24 }}>
+        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(2, 1fr)", gap: 24 }}>
           {cards.map((c) => (
             <div key={c.stat} style={{ background: C.white, borderTop: `4px solid ${C.peach}`, padding: 24 }}>
               <div style={{ color: C.navy, fontSize: 20, fontWeight: 700, marginBottom: 8, fontFamily: F }}>{c.stat}</div>

@@ -9,7 +9,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "SafeSalt™ — Precision Electrolyte Seasoning",
-  description: "The first seasoning engineered around your sodium-to-potassium ratio. Six ingredients. Full mineral stack. Zero potassium chloride.",
+  description: "The first seasoning engineered around your sodium-to-potassium ratio. 50% less sodium. Zero potassium chloride. Same great taste as salt.",
 };
 
 export default function RootLayout({
