@@ -208,8 +208,8 @@ function Science() {
 
   const credentials = [
     "Board Certified in Internal Medicine",
-    "Trained at Princeton, NYU School of Medicine, Stanford, NIH & Washington University",
-    "Worked in the labs of Severo Ochoa and Arthur Kornberg",
+    "Princeton University",
+    "Trained at NYU School of Medicine, Stanford, NIH & Washington University",
   ];
 
   return (
@@ -217,25 +217,19 @@ function Science() {
       <div style={{ maxWidth: 1200, margin: "0 auto" }}>
         <p style={{ color: C.sky, fontSize: 14, fontWeight: 500, letterSpacing: "0.04em", marginBottom: 16, fontFamily: F }}>The science behind it</p>
         <h2 style={{ color: C.white, fontSize: isMobile ? 28 : 36, fontWeight: 700, letterSpacing: "-0.02em", marginBottom: 24, maxWidth: 640, fontFamily: F }}>
-          Formulated by a physician who worked in the labs of two Nobel Laureates.
+          Formulated by a physician-scientist whose early research is still cited today.
         </h2>
         <p style={{ color: "rgba(255,255,255,0.8)", fontSize: isMobile ? 16 : 18, fontWeight: 300, lineHeight: 1.6, marginBottom: 48, maxWidth: 760, fontFamily: F }}>
-          Dr. Gardner is a biochemist and physician practicing in psychiatry and endocrinology — a rare dual specialty.
+          Dr. Robert S. &lsquo;Isaac&rsquo; Gardner, MD, practices in endocrinology and psychiatry and is board certified in Internal Medicine. In his twenties and thirties, his laboratory research contributed to foundational discoveries in molecular genetics — work still cited in the field today. That same rigor defines every SafeSalt™ formulation.
         </p>
 
-        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(3, 1fr)", gap: 24, marginBottom: 48 }}>
+        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(3, 1fr)", gap: 24 }}>
           {credentials.map((c) => (
             <div key={c} style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.1)", borderRadius: 8, padding: 24 }}>
               <p style={{ color: "rgba(255,255,255,0.9)", fontSize: 14, lineHeight: 1.6, fontWeight: 500, fontFamily: F }}>{c}</p>
             </div>
           ))}
         </div>
-
-        <blockquote style={{ borderLeft: `4px solid ${C.peach}`, paddingLeft: 24, maxWidth: 760 }}>
-          <p style={{ color: "rgba(255,255,255,0.8)", fontSize: isMobile ? 18 : 20, fontWeight: 300, lineHeight: 1.6, fontStyle: "italic", fontFamily: F }}>
-            "In Nobel Laureate Severo Ochoa's laboratory at NYU School of Medicine, Dr. Gardner led the discovery that AAA codes for lysine — one of the foundational assignments in the genetic code, cited in Marshall Nirenberg's 1968 Nobel Prize lecture. The finding resolved a paradox that had blocked leading laboratories for two years, and prompted a congratulatory letter from Francis Crick to the Ochoa laboratory. He would go on to author foundational sporulation research in Nobel Laureate Arthur Kornberg's Stanford laboratory as well. That same precision defines SafeSalt™."
-          </p>
-        </blockquote>
       </div>
     </section>
   );
